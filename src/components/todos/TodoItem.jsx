@@ -1,4 +1,5 @@
-const TodoItem = () => {
+const TodoItem = ({ todo }) => {
+    const { id, text } = todo;
     return (
         <li style={{ color: '#000' }}>
             <input type="checkbox" />
