@@ -3,7 +3,7 @@ import colorReducer from './modules/colorSlice';
 import counterReducer from './modules/counterSlice';
 import changeColorReducer from './modules/changeColorSlice';
 import countReducer from './modules/countSlice';
-import todosReducer from './modules/todoSlice';
+import todosR from './modules/todoSlice';
 
 export const store = configureStore({
     reducer: {
@@ -11,6 +11,6 @@ export const store = configureStore({
         counterR: counterReducer,
         colorChangeR: changeColorReducer,
         countR: countReducer,
-        todosR: todosReducer,
+        todosR,
     },
 });
